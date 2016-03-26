@@ -58,6 +58,8 @@ public class MainActivity extends Service {
                     case MotionEvent.ACTION_UP:
                         if ((Math.abs(initialTouchX - event.getRawX()) < 5) && (Math.abs(initialTouchY - event.getRawY()) < 5)) {
                             Log.e(String.valueOf(TAG), "It's a click ! ");
+                            //This is where you can change the opening app to any app you want
+                            //Change the "com.supercell.clashofclans" to the package name of any app you want to open
                             Intent LaunchIntent = getPackageManager()
                                     .getLaunchIntentForPackage("com.supercell.clashofclans");
                             startActivity(LaunchIntent);
