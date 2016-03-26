@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Floatify COC</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="simple1">To start this app click the button below. The instructions are simple. Click the start button to start the app. There will be a small icon of COC. You can drag it anytime and anywhere. Click on it to start COC. To stop this app go to Settings -> Apps -> COC Floater -> Force Stop.</string>
+
+    <string name="simple2">When you close this app you will see the floating icon disappear. Do not worry, it will be back in 3 seconds. This floating icon will remain on 24/7 without consuming battery. If you have any issues with the app. Ex. The icon is not present. Go to Settings > Apps > COC Floater > Force Stop. Then start the app and the issue will be solved.</string>
+
+    <string name="simple3">If you have any issues or suggestions. Do mail us at ideas@todaysfuture.in</string>
+</resources>
